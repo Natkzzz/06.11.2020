@@ -1,4 +1,5 @@
-z,x = map(int,input().split())
+z =int(input(''))
+x =int(input(''))
 sum = 0
 s = 0
 for i in range(z,x+1):
