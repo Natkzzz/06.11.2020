@@ -1,0 +1,6 @@
+z = list(map(int,input().split()))
+s = 0
+for i in range (0,len(z)):
+    if i % 3 == 0:
+        s+= 1
+print(s)
